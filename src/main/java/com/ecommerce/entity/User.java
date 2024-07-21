@@ -14,11 +14,11 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Product {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long productId;
-    private String productName;
-    private double productPrice;
-    private String productColor;
+    private long userId;
+    private String userName;
+    private String userEmail;
+    private long mobile;
 }
